@@ -20,6 +20,8 @@
 .page-header{
 
 }
+
+
 .page{
     margin: auto;
     width: 1600px;
@@ -40,7 +42,7 @@
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2;
     text-decoration: none;
 }
 .container{
@@ -51,7 +53,7 @@
     margin-left: auto;
     margin-right: auto;
     align-items: center; 
-    outline: 2px solid red;
+    
 }
 .header-container{
     width: 1200px;
@@ -62,7 +64,7 @@
     margin-left: auto;
     margin-right: auto;
     align-items: center; 
-    outline: 2px solid red;
+   
 }
 .navigation{
     display: flex;
@@ -114,8 +116,12 @@
     padding-left: 0;
     margin-left: auto;    
 }
+.item{
+    list-style-type: none;
+}
 .item-contact{
     list-style-type: none;
+    
 }
 .contact-list .item + .item{
     margin-left: 50px;
@@ -144,7 +150,7 @@
     flex-direction: column;
     text-align: center;
     align-items: center;
-    padding-bottom: 94px;
+    
 
 }   
 .text-main{
@@ -179,21 +185,41 @@
 background-color: var(--accent-link-bg-cl);
 }
 /* section feature */
+.img-how-we-work{   
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.div-personal{
+   
+}
+.div-personal:last-child{
+    
+}
 .feature-container{
-    margin-bottom: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .feature-list{
     display: flex;
-    gap: 30px;
+    
 }
 .feature-title{
+    padding-bottom: 10px; 
+    margin-top: 0;
+    margin-bottom: 0;
     font-size: 14px;
     font-weight: 700;
     line-height: 1.14;
     text-transform: uppercase;
     color: var(--main-cl);
 }
-.feature-text{ 
+.feature-text{
+    margin-top: 0;
+    margin-bottom: 0; 
     letter-spacing: 0.03em;
     font-size: 14px;
     color: var(--accent-txt-cl);
@@ -219,6 +245,19 @@ background-color: var(--accent-link-bg-cl);
     gap: 30px;
 }
 /* personal */
+.img-personal{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.list-persolnal{
+    margin-right: 30px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.list-persolnal:last-child{
+    margin-right: 0;
+}
 .section-personal{
    background-color: var(--accent-bg-cl) 
 }
@@ -227,12 +266,17 @@ background-color: var(--accent-link-bg-cl);
     padding-bottom: 94px;
 }
 .personal-name{
+    margin-top: 0;
+    margin-bottom: 0;
     list-style-type: none;
     display: flex;
-    gap: 30px;
+    
 
 }
 .personal-item{
+    padding-top: 30px;
+    margin-top: 0px;
+    margin-bottom: 0;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.1875;
@@ -240,6 +284,10 @@ background-color: var(--accent-link-bg-cl);
     color: var(--main-cl);
 }
 .personal-work{
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
     font-size: 16px;
     line-height: 1.1875;
     text-align: center;
@@ -254,8 +302,10 @@ background-color: var(--accent-link-bg-cl);
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    
 }
 .footer-logo{
+    margin-top: 60px;
     display: flex;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -272,6 +322,7 @@ background-color: var(--accent-link-bg-cl);
     color: var(--secondary-txt-cl);
     list-style-type: none;
 }
+
 .addres-name-item{
     font-style: normal;
     font-weight: 400;
@@ -285,17 +336,39 @@ background-color: var(--accent-link-bg-cl);
 color: var(--main-link-cl);
 }
 .footer-contact-list{
-padding: 0;   
+    margin-bottom: 60px;
+padding-bottom: 0;    
+padding-left: 0;
+}
+.address-contact{
+    
 }
 .item-contact{
-
+padding-top: 9px;
 }
 
 /* PORTFOLIO */
 /* button */
+.portfoli-header{
+    border: #188CE8;
+}
+.container-portfolio{
+    flex-direction: column;
+    display: flex;
+}
 
 .type-button-portfolio{
+    display: flex;
     list-style-type: none;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.portfolio-site{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 34px;
 }
 .type-button-portfolio-item{
     cursor: pointer;
@@ -313,6 +386,12 @@ padding: 0;
     color: var(--secondary-txt-cl);
 }
 /* title */
+.img-portfolio{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 .title-portfolio{
     font-weight: 700;
     font-size: 18px;
@@ -327,6 +406,10 @@ padding: 0;
 }
 .link-list-portfolio{
     list-style-type: none;
+    margin-right: 20px;
+}
+.link-list-portfolio:nth-child(3n+3){
+    margin-right: 0px;
 }
 .link-work-item{
     text-decoration: none;
