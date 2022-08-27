@@ -24,6 +24,9 @@
 .page-header{
 
 }
+.header-portfolio-official{
+    border-bottom: #ECECEC;
+}
 
 
 .page{
@@ -269,6 +272,7 @@ background-color: var(--accent-link-bg-cl);
 .personal-container{
     flex-direction: column;
     padding-bottom: 94px;
+    padding-top: 94px;
 }
 .personal-name{
     margin-top: 0;
@@ -346,13 +350,14 @@ padding-bottom: 0;
 padding-left: 0;
 }
 .address-contact{
-    
+    font-style: normal;
 }
 .item-contact{
 padding-top: 9px;
 }
 /* PORTFOLIO */
 /* button */
+
 .portfoli-header{
     margin-bottom: 60px;
 }
