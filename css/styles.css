@@ -19,10 +19,6 @@
  
 }
 /* header */
-.header-portfolio-official{
-    margin-top: 32px;
-    border-bottom: #ECECEC;
-}
 h1, h2, h3, h4, h5, h6, p, ul {
   margin: 0;
   padding: 0;
@@ -135,7 +131,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
     margin-left: 50px;
 }
 .contact-list-item{   
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     line-height: 1.1px;
     letter-spacing: 0.02em;
@@ -205,6 +201,7 @@ background-color: var(--accent-link-bg-cl);
 }
 .section-office{
 padding-bottom: 94px;
+padding-top: 94px;
 }
 
 
@@ -216,17 +213,15 @@ padding-bottom: 94px;
     
 }
 .feature-container{
-    padding-top: 94px;
-    
 }
 .feature-list{
     display: flex;
+    gap: 30px;
     
 }
 .feature-title{
-    padding-bottom: 10px; 
+    margin-bottom: 10px; 
     margin-top: 0;
-    margin-bottom: 0;
     font-size: 14px;
     font-weight: 700;
     line-height: 1.14;
@@ -292,6 +287,7 @@ padding-bottom: 94px;
     margin-bottom: 0;
     list-style-type: none;
     display: flex;
+    background-color: #ffffff;
     
 
 }
@@ -367,20 +363,21 @@ padding-left: 0;
     margin-top: 20px
 }
 .item-contact{
-padding-top: 9px;
+margin-top: 9px;
 }
 /* PORTFOLIO */
 /* button */
 
 .portfoli-header{
-    margin-bottom: 60px;
+   padding-top: 32px;
     justify-content: space-between;
-}
-.container-portfolio{
-    padding-bottom: 94px;
+    border-bottom: solid 1px #ECECEC;
+    padding-bottom: 32px;
 }
 .portfolio-list-text{
-    margin-top: 20px;
+border-left: solid 1px #eeeeee ;
+border-right: solid 1px #eeeeee ;
+border-bottom: solid 1px #eeeeee ;
 }
 .type-button-portfolio{
     display: flex;
@@ -394,6 +391,11 @@ padding-top: 9px;
 .button-item-portfolio{
     margin-right: 8px;
 
+}
+.img-portfolio{
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 .portfolio-site{
     display: flex;
