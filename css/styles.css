@@ -518,7 +518,7 @@ border-bottom: solid 1px #ECECEC;
 border-left: solid 1px #eeeeee ;
 border-right: solid 1px #eeeeee ;
 border-bottom: solid 1px #eeeeee ;
-padding: 0 0;
+padding: 20px 24px;
 }
 .type-button-portfolio{
     display: flex;
@@ -562,6 +562,7 @@ padding: 0 0;
 .type-button-portfolio-item:focus{
     background-color: var(--bg-link-cl);
     color: var(--secondary-txt-cl);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 /* title */
 .img-portfolio{
@@ -596,11 +597,13 @@ padding: 0 0;
     margin-right: 0px;
 }
 .link-work-item{
+    display: block;
     text-decoration: none;
 }
-.link-work-item:hover,
+
+.link-work-item:hover
 .link-work-item:focus{
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .footer-contact-list-item{
     font-style: normal;
