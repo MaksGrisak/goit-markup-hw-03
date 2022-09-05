@@ -142,12 +142,11 @@ h1, h2, h3, h4, h5, h6, p, ul {
     gap: 10px;
 
 }
-
-.contact-list-item:hover,
-.contact-list-item:focus,
 .contact-icon:hover,
-.contact-icon:focus
-{   
+.contact-icon:focus,
+.contact-list-item:hover,
+.contact-list-item:focus
+{
     fill: #2196F3;
     color: var(--main-link-cl);
     text-decoration: none;
@@ -355,16 +354,23 @@ padding-top: 94px;
 .socials-item{
     list-style: none;
 }
-.socials-item:hover{
+.socials-item:hover,
+.socials-item:focus{
     background-color: #188CE8;
     border-radius: 50%;
 }
 .socials-link:hover .socials-icon,
-.socials-link:focus .socials-icon{
+.socials-link:focus .socials-icon
+{
     fill: #ffffff;
 }
+
+.socials-link:hover,
+.socials-link:focus{
+    background-color: #188CE8;
+}
 .socials-icon{
-    fill: #AFB1B8;
+    fill: #AFB1B8;  
 }
 .socials-icon-client{
     width: 106px;
