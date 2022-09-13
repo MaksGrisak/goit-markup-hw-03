@@ -142,15 +142,16 @@ h1, h2, h3, h4, h5, h6, p, ul {
     gap: 10px;
 
 }
-.contact-icon:hover,
-.contact-icon:focus,
 .contact-list-item:hover,
 .contact-list-item:focus
 {
-    fill: #2196F3;
     color: var(--main-link-cl);
     text-decoration: none;
     list-style-type: none;
+}
+.contact-list-item:hover .contact-icon,
+.contact-list-item:focus .contact-icon{
+    fill: #2196F3;
 }
 .contact-icon{
 fill: #757575;
@@ -215,11 +216,16 @@ background-color: var(--accent-link-bg-cl);
 }
 /* section feature */
 .icon-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 270px;
+    height: 120px;
     margin-bottom: 30px;
     background-color: #F5F4FA;
 }
 .feature-icon{
-    margin: 25px 100px;
+    
 }
 .img-how-we-work{   
     display: block;
@@ -379,7 +385,7 @@ padding-top: 94px;
 }
 /* section-client */
 .section-client{
-    background-color: var(--accent-bg-cl);
+    
 }
 .logo-client{
 font-weight: 700;
@@ -400,6 +406,7 @@ margin-bottom: 50px;
     list-style: none;
 }
 .socials-client{
+    border-radius: 4px;
     display: flex;
     align-items: center;
     justify-content: center;
